@@ -1,0 +1,3 @@
+C:/Users/Geiss/Desktop/UDPServerClion/cmake-build-debug/CMakeFiles/Raw_Sockets.dir
+C:/Users/Geiss/Desktop/UDPServerClion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Geiss/Desktop/UDPServerClion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
