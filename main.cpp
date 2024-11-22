@@ -85,8 +85,7 @@ int main()
             return 1;
         }
 
-        while (true)
-        {
+
             cout << "Warte auf Daten." << endl;
             fflush(stdout);
 
@@ -109,7 +108,7 @@ int main()
                 return 1;
             }
 
-        }
+
         closesocket(connectionSocket);
     }
     // Close socket

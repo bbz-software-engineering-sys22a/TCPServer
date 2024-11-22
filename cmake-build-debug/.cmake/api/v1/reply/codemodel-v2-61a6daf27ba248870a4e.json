@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Geiss/Desktop/UDPServerClion/cmake-build-debug",
-		"source" : "C:/Users/Geiss/Desktop/UDPServerClion"
+		"build" : "C:/Users/Geiss/Desktop/TCPServer/cmake-build-debug",
+		"source" : "C:/Users/Geiss/Desktop/TCPServer"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 7
 	}
 }
