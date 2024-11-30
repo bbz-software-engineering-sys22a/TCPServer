@@ -77,15 +77,16 @@ int main()
         cout << "Verbunden mit dem Client: " << inet_ntoa(clientAddress.sin_addr) << endl;
 
         // Prompt senden
-
-        if (send(connectionSocket, "#: ", 3, 0) == SOCKET_ERROR)
+        /**
+        if (send(connectionSocket, "welcome to the server", 21, 0) == SOCKET_ERROR)
         {
             cout << "Daten senden fehlgeschlagen: " << WSAGetLastError() << endl;
             system("pause");
             return 1;
         }
+        **/
 
-
+        //while(true) {
             cout << "Warte auf Daten." << endl;
             fflush(stdout);
 
@@ -107,7 +108,7 @@ int main()
                 system("pause");
                 return 1;
             }
-
+        //}
 
         closesocket(connectionSocket);
     }
